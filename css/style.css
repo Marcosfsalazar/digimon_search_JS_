@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+	font: inherit;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FF8427;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.data-none{
+    display: none;
+}
+
+.data-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
+.centralize{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+.input-border{
+    border: 0.15rem solid black;
+    border-radius: 5%;
+    margin-top: 0.1rem;
+    padding: 0.25rem;
+}
+
+.button-style{
+    align-self: center;
+    margin-top: 0.5rem;
+    color: #ffffff;
+    border-radius: 5%;
+    background-color: black;
+    width: 6.5rem;
+    height: 2rem;
+}
+
+.button-style:hover{
+    box-shadow: 0 0 0 0.1rem black ;
+    cursor: pointer;
+}
+
+.label{
+    font-style: italic;
+    font-size: small;
+    padding-left: 0.25rem;
+}
+
+#name{
+    border-bottom: 1px solid black;
+}
+
+#name:hover,#level:hover{
+    cursor: pointer;
+    background-color: #FFC800;
+    color: #ffffff;
+}
+
+#digimonImg{
+    margin-top: 1rem;
+    max-width: 320px;
+    max-height: 320px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 0 0 0 2rem black;
+}
+
+#setImg{
+    max-width: 320px;
+    max-height: 320px;
+}
+
+#name,#level{
+    background-color: F0F2EF;
+}
